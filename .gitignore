@@ -15,7 +15,6 @@ server/config/simtoken
 start.bat
 npm-debug.log
 npm-debug.log.*
-public/*
 typings/*
 
 # Runtime data

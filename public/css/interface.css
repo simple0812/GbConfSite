@@ -1,0 +1,36 @@
+*{margin:0;padding:0;font-family:'Microsoft Yahei','Simsun'; }
+body,button,input,select,textarea{ font-size:18px}
+body{background: #e0ca5b; height: 100%; }
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+ul,ol{list-style:none;}
+a{text-decoration:none;color:#4c4c4c;}
+a:hover, a:active, a:focus {color: #FF0000;text-decoration: none;}
+a:visited{color:#800080;}
+img{border:0;vertical-align: middle;}
+button,input,select,textarea{font-size:100%; vertical-align:middle}
+table{width:100%;border-spacing:0px;margin:0px;padding:0px;border-collapse: collapse;}
+.clearfix:after {visibility:hidden; display:block;  font-size:0; content:" ";clear:both;height:0;}
+.clearfix { zoom:1;}
+
+.header { height: 98px; padding: 40px 60px 30px 60px; color: #ffffff; background: #041c36; }
+.header-top { height: 70px; position: relative; border-bottom: 1px solid #f5e993; }
+.header-top p { position: absolute;}
+.unitname { top: 0; left: 90px;  }
+.unitname span { display: block; }
+.unitname .chinaname { font-size: 32px;}
+.unitname .englishname { font-size: 25px; position: relative; top:-5px; left: 3px;}
+.roomname { top:0; right: 0; font-size: 39px; line-height: 65px; text-align: right; margin-top: 8px; }
+.header-bot { height: 30px; font-size: 21px; text-align: right;  line-height: 30px; }
+.header-bot span {position: relative;  right: 3px; }
+
+.content { margin-top: 65px; padding: 0 24px 18px 24px; height: 100%;  overflow: hidden;  }
+.content ul { padding: 0 32px;  background: #091a38; height: 100%; border-radius: 10px;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out; }
+.content ul li { height: 108px; line-height: 108px; font-size: 30px; color: #ffffff;  border-bottom: 1px solid #f5e993;}
+.content ul li  span { display: block; float: left; height: 108px;  white-space:nowrap;text-overflow:ellipsis;-o-text-overflow:ellipsis;overflow: hidden; }
+.content ul li:last-child {border-bottom: none}
+.sp-meeting { width:  50% }
+.sp-user { width:  20% }
+.sp-stime { width:  15% }
+.sp-etime { width:  15% }

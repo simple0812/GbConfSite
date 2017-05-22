@@ -1,0 +1,16 @@
+
+/*booking*/
+/*.dl-horizontal dd {*/
+    /*margin-left: 115px;*/
+/*}*/
+.roomRow .col-xs-2 .popover{z-index: 9999;}
+.roomRow .col-xs-2 .popover dt{text-align: right;max-width: 100px;}
+.roomRow .col-xs-2 .popover dd{text-align: left;max-width: 180px;margin-left: 115px;}
+
+.roomRowChild .popover {z-index: 9999;width: 300px;}
+.roomRowChild .popover dt{text-align: right;max-width: 100px;}
+.roomRowChild .popover dd{text-align: left;max-width: 180px;margin-left: 115px;}
+.book-room-day .popover {z-index: 9999;width: 300px;}
+.book-room-day .popover dt{text-align: right;max-width: 100px;}
+.book-room-day .popover dd{text-align: left;max-width: 180px;margin-left: 115px;}
+.book-room-day .popover.bottom .arrow{border-bottom-color: #ffffff;top: 0px;left: 0px;margin-left: 0px;}
